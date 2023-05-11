@@ -1,1 +1,2 @@
-Aqui voy dejando el código y sus  funcionalidades separadas por versiones
+11/05/2023
+Primera version de la página, todavia falta muchos etsilos por definir pero funciona correctamente
