@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(138, 226, 255);
+}#err{
+    color:red;
+    font-weight: bold;
+}
+#tit{
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text"]{
+    border: 1px solid red;
+}
