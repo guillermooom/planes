@@ -1,2 +1,2 @@
 11/05/2023
-Primera version de la página, todavia falta muchos etsilos por definir pero funciona correctamente
+Primera version de la página, todavia falta muchos estilos por definir pero funciona correctamente
