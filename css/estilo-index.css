@@ -1,0 +1,52 @@
+/* ESTILOS DE SWEETALERT */
+.swal-footer {
+    display: grid;
+    margin:auto;
+    justify-content: center;
+}
+
+/*ESTILOS DE PROGRAMA */
+form{
+    display: grid;
+    
+}
+@media(max-width:400px){
+    input[type="text"],input[type="password"]{
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+input[type="text"],input[type="password"]{
+    margin-left: 15%;
+    width: 70%;
+}
+input{
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -150px;
+}
+input[type="submit"]{
+    font-size: 20px;
+    place-self: center;
+    background-color: #eef6b0;
+    border:none;
+    color:black;
+    width: 200px;
+    height: 40px;
+    border-radius: 5pt;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.3);
+}
+input[type="submit"]:hover{
+    background-color: #bdc48c;
+    cursor: pointer;
+}
+input[type="submit"]:active{
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: 0 0 0 0;
+}
+
