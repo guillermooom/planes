@@ -19,6 +19,15 @@ body{
     display: grid;
     margin:auto;
 }
+
+/* SCROLL BAR */
+::-webkit-scrollbar{
+   opacity: 0;
+}
+::-webkit-scrollbar-thumb {
+    opacity: 0;
+}
+
 h1{
     font-family: mifuente;
 }
