@@ -1,0 +1,85 @@
+div > a > img{
+    opacity: 0;
+}
+html, body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+body{
+    padding: 20px;
+    font-size: 27.5px;
+    font-family: CALIBRI;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -25px;
+}
+#salu{
+    font-size: 40px;
+    margin-bottom: -50px;
+}
+#cuerpo{
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 15px;
+    width: 80%;
+    height: 65%;
+    display: grid;
+    margin:auto;
+}
+@media(max-width:950px){
+    #cuerpo{
+        background: rgba(255, 255, 255, 0.65);
+        border-radius: 15px;
+        width: 90%;
+        height: 90%;
+        display: grid;
+        margin:auto;
+    }
+}
+h1{
+    font-family: mifuente;
+}
+input[type="text"], input[type="password"]{
+    background-color:transparent;
+    border:none;
+    border-bottom: 2px solid black;
+    height: 30px;
+    width: 50%;
+}
+@font-face {
+    font-family: "mifuente";
+    src: url("../fonts/Fool For Love.ttf");
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar{
+    opacity: 0;
+ }
+ ::-webkit-scrollbar-thumb {
+     opacity: 0;
+ }
+
+/* BOTONES SUPERIOR DE INICIO O CERRAR SESION */
+#ses{
+    text-align: center;
+    width: 150px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px ;
+    background-color: #e33b9e;
+    text-decoration: none;
+    color:white;
+    box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.3);
+}
+#ses:hover{
+    background-color: #bdc48c;
+    cursor: pointer;
+}
+#ses:active{
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: 0 0 0 0;
+}

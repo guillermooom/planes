@@ -1,0 +1,49 @@
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+#cuerpo{
+    padding-left: 50px;
+}
+#ses{
+    border:none;
+    text-align: center;
+    width: 150px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px ;
+    background-color: #eef6b0;
+    text-decoration: none;
+    color:black;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.3);
+}
+#ses:hover{
+    background-color: #bdc48c;
+    cursor: pointer;
+}
+#ses:active{
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: 0 0 0 0;
+}
+form{
+    margin-top: -150px;
+    display: grid; 
+}
+@media(max-width:400px){
+    input[type="text"],input[type="password"]{
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+input[type="submit"]{
+    place-self: center;
+}
+input[type="text"],input[type="password"]{
+    margin-left: 15%;
+    width: 70%;
+}
+input{
+    margin-bottom: 50px;
+}
